@@ -21,7 +21,18 @@
         height: $header-content-height;
         width: $header-search-bar-width;
         border: $generic-border;
+        border-right: 0;
       }
     }
+  }
+
+  .nav-search-icon {
+    background-color: $lighter-gray;
+    width: $generic-icon-width;
+    height: $header-content-height - 0.4em;
+    background-image: url("/icons/search.png");
+    background-position: center;
+    background-size: $header-content-height - 1;
+    background-repeat: no-repeat;
   }
 }

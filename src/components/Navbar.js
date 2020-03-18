@@ -7,8 +7,13 @@ export class Navbar extends Component {
         <div className="container">
           <div className="fb-nav-logo"></div>
           <div className="search-box">
-            <input type="text" className="nav-search-box" placeholder="Search" />
+            <input
+              type="text"
+              className="nav-search-box"
+              placeholder="Search"
+            />
           </div>
+          <div className="nav-search-icon"></div>
         </div>
       </nav>
     );
