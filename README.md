@@ -8,7 +8,13 @@ docker
 docker-compose
 ```
 
-# Start project
+# Starting the app
 ```
 make up
+```
+
+# Stoping the app
+
+```
+make down
 ```
