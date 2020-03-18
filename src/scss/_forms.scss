@@ -1,0 +1,15 @@
+input {
+  &[type="text"] {
+    width: 100%;
+    height: 30px;
+    display: inline-block;
+    border-right: none;
+    text-indent: 0.5em;
+  }
+
+  &::placeholder {
+    margin: auto;
+    color: $input-placeholder-color;
+    opacity: 1;
+  }
+}

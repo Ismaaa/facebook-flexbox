@@ -1,0 +1,27 @@
+.nav {
+  background-color: $primary;
+  height: $navbar-height;
+  border-bottom: $navbar-border;
+
+  .fb-nav-logo {
+    height: $header-logo-height - 0.1;
+    width: $header-logo-width;
+    display: block;
+    margin-right: 0.4em;
+    background-image: url("/logo/fb-white.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10%;
+  }
+
+  input {
+    &[type="text"] {
+      &.nav-search-box {
+        height: $header-content-height;
+        width: $header-search-bar-width;
+        border: $generic-border;
+      }
+    }
+  }
+}
